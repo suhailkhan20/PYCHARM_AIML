@@ -1,5 +1,5 @@
 # Training instance --> rows
-#
+# Features          --> columns
 
 import numpy as np
 
