@@ -1,22 +1,10 @@
-# Random concept
+# Practical-41
 
 import numpy as np
-res1 = np.random.rand(4)
-print("res1:",res1)
 
-np.random.seed(1)
-res2 = np.random.rand(8)
-print("res2:",res2)
+# Creating a 1D NumPy array
+arr = np.array([1, 2, 3, 4, 5, 6,7,8,9,10,11,12])
 
-np.random.seed(2)
-res3 = np.random.rand(2)
-print("res3:",res3)
-
-np.random.seed(1)
-res5 = np.random.rand(2,4)
-print('res5:',res5)
-
-np.random.seed(3)
-res3 = np.random.rand(4)
-print('res3:',res3)
-
+# Reshaping the 1D array into a 2D array with 2 rows and 3 columns
+reshaped_arr = np.reshape(arr, (12,1))
+print(reshaped_arr)
