@@ -5,7 +5,7 @@
 
 import matplotlib.pyplot as plt
 
-plt.plot([1,2,3,4],[1,4,9,16],'r3--')
+plt.plot([1,2,3,4],[1,4,9,16],'ks:')
 plt.xlabel("----some numbers---->")
 plt.ylabel("----Squared Values------->")
 
