@@ -6,5 +6,5 @@ df = pd.DataFrame(np.random.randn(6,4),
 
 print(df)
 
-print("\nAfter deletion rows \n")
-print(df.drop(df.columns[2],axis=1))
+df.to_excel('outputData.xlsx',sheet_name='GNIOT')
+print("Data saved in excel file.")
