@@ -7,4 +7,4 @@ df = pd.DataFrame(np.random.randn(6,4),
 print(df)
 
 print("\nAfter deletion rows \n")
-print(df.drop(df.index[0],axis=0))
+print(df.drop(df.columns[2],axis=1))
