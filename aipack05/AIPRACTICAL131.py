@@ -30,3 +30,4 @@ print("\n\nonehot_encoded =\n", onehot_encoded)
 # invert encoding
 inverted = int_to_char[argmax(onehot_encoded[1])]
 print("\n\nonehot_decoded =\n",inverted)
+
